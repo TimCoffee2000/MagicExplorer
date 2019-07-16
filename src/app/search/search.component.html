@@ -1,0 +1,18 @@
+<div class="div-1">
+  <div class="first-line">
+    <div class="usClass">Search user</div>
+    <div>
+      <input class="inpClass" type="text" placeholder="username" [(ngModel)]="userName">
+      <button class="butClass" (click)="search()" >Search</button></div>
+  </div>
+</div>
+<div class="respClass" *ngIf="response">
+  <div><img src="{{response.avatar_url}}" alt=""></div>
+  <div class="nameClass"><p>{{response.name}}</p></div>
+  <div class="infoBlock">
+    <a routerLink="/user" (click)="newMessage()">View details</a>
+    <a class="aClass" href="{{response.html_url}}" target="_blank">Open on Github</a>
+  </div>
+</div>
+
+

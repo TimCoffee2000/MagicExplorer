@@ -1,0 +1,43 @@
+.header{
+  background-color: silver;
+}
+#footer {
+  display: flex;
+  position: fixed;
+  left: 0; bottom: 0;
+  padding: 30px;
+  background: silver;
+  color: black;
+  width: 100%;
+}
+.tools{
+  display: flex;
+  margin-top: 25px;
+  float: right;
+  margin-right: 200px;
+  font-size: 20px;
+}
+.home{
+  margin-right: 10px;
+}
+.search{
+  margin-left: 10px;
+}
+.copy{
+  font-size: 20px;
+}
+.year{
+  margin-left: 1050px;
+  font-size: 20px;
+}
+
+img{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 15%;
+  height: 15%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,55 @@
+.div-1{
+  border: 1px solid black;
+}
+
+.first-line{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.usClass{
+  font-size: 30px;
+  margin-left: 25px;
+}
+.inpClass{
+  margin-top: 5px;
+  margin-right: 25px;
+  height: 25px;
+  font-size: 15px;
+}
+.butClass{
+  height: 30px;
+  width: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.respClass{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid silver;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.nameClass{
+  align-self: center;
+  margin-left: 5px;
+  margin-right: 1000px;
+}
+.infoBlock{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+img{
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 80px;
+  border: 3px solid silver;
+  border-radius: 50px;
+}
+.aClass{
+  margin-top: 5px;
+}

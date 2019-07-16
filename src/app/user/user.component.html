@@ -1,0 +1,31 @@
+<div class="mainDiv">
+  <div class="nameClass">
+    <div class="div1"><img class="img1" src="{{user.avatar_url}}" alt=""></div>
+    <div class="div2">{{user.login}}</div>
+    <a class="div3" href="https://github.com/{{user.login}}" target="_blank">View on Github</a>
+  </div>
+  <div class="repoClass">
+    <div class="line1">
+      <img class="img2" src="https://ryanacademy.ie/wp-content/uploads/2017/04/user-placeholder.png" alt="user">
+      <p class="p1">{{user.name}}</p>
+    </div>
+    <div class="line2">
+      <img class="img3" src="https://image.flaticon.com/icons/svg/55/55203.svg" alt="clock">
+      <p class="p2">{{user.created_at.slice(0, 10)}}</p>
+    </div>
+    <div class="line3">
+      <img class="img4" src="https://image.flaticon.com/icons/png/512/23/23394.png" alt="location">
+      <p class="p3">{{user.location}}</p>
+    </div>
+    <div class="line4">
+      <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2_QMVwuDEE5ZuFHlB9nFE3bU8xwNC1o5ifz7YLeDbNxGaVkfsg"
+           alt="company">
+      <p class="p4">{{user.company}}</p>
+    </div>
+    <div class="line5">
+      <img class="img6" src="https://www.stickpng.com/assets/images/584856b4e0bb315b0f7675ac.png" alt="email">
+      <p class="p5">{{user.email}}</p>
+    </div>
+  </div>
+  <a href="https://github.com/{{user.login}}?tab=repositories" class="lastClass" target="_blank">Repositories</a>
+</div>
